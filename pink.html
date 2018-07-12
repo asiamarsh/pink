@@ -2,13 +2,133 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Page Title</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="main.js"></script>
 </head>
 <body>
+
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img class="page-header__logo-image" src="" width="75" height="22" alt="логотип Pink">
+    </a>
+    <button class="page-header__close" type="button">Закрыть</button>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a href="#">Главная</a>
+        </li>
+        <li class="main-nav__item">
+            <a href="photo.html">Фотографии</a>
+        </li>
+        <li class="main-nav__item">
+            <a href="form.html">Конкурс</a>
+        </li>
+        <li class="main-nav__item">
+            <a href="#">HTML Academy</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <h1 class="visually-hidden">Приложение Pink</h1>
+    <section class="download">
+      <button class="download__button" type="button">Скачать приложение</button>
+      <ul class="download__list">
+        <li class="download__item ">
+          <a class="download__link--apple" href="#">Os X</a>
+        </li>
+        <li class="download__item ">
+            <a class="download__link--android" href="#">Android</a>
+        </li>
+        <li class="download__item ">
+            <a class="download__link--windows" href="#">Windows</a>
+        </li>
+      </ul>
+      <p class="download__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+    </section>
+
+    <section class="advantages">
+      <h2 class="visually-hidden">
+        Наши преимущества
+      </h2>
+      <p class="advantages__intro">Устали от серости мегаполиса?</p>
+      <p class="advantages__intro">Нам есть, что вам предложить!</p>
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          <h3 class="advantages__title">Поднимает настроение</h3>
+          <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        </li>
+        <li class="advantages__item">
+            <h3 class="advantages__title">Меняет мир вокруг</h3>
+            <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+        </li>
+        <li class="advantages__item">
+            <h3 class="advantages__title">Заводит новых друзей</h3>
+            <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        </li>
+      </ul>
+      <img class="advantages__image" src="" width="" height="" alt="mobile">
+    </section>
+
+    <section class="reviews">
+      <div class="reviews__list slider__list">
+          <blockquote class="reviews__item slider__item">
+            <cite class="reviews__author-name">Николай Петров</cite>
+            <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </blockquote>
+          <blockquote class="reviews__item slider__item">
+              <cite class="reviews__author-name">2</cite>
+              <p class="reviews__text">2</p>
+          </blockquote>
+          <blockquote class="reviews__item slider__item">
+              <cite class="reviews__author-name">3</cite>
+              <p class="reviews__text">3</p>
+          </blockquote>
+          <p class="reviews__toggles slider__toggles">
+              <button class="slider__toggle" type="button">1</button>
+              <button class="slider__toggle" type="button">2</button>
+              <button class="slider__toggle" type="button">3</button>
+          </p>
+      </div>
+    </section>
+
+    <section class="version">
+      <table class="version__list">
+        <tr class="version__item--header">
+          <td></td>
+          <td>База
+            <b class="money">1,99 USD</b>
+          </td>
+          <td>Стандарт
+            <span class="version__hit">Хит</span>
+            <b class="money">3,99 USD</b>
+          </td>
+          <td>Анлим
+              <b class="money">9,99 USD</b>
+          </td>
+        </tr>
+        <tr class="version__item">
+            <td>Розовый фильтр</td>
+            <td><img src=""></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="version__item">
+            <td>Смайлики</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="version__item">
+            <td>Комментарии</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+      </table>
+    </section>
+  </main>
   
 </body>
 </html>

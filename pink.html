@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <title>Page Title</title>
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 
   <header class="page-header">
     <a class="page-header__logo">
-      <img class="page-header__logo-image" src="" width="75" height="22" alt="логотип Pink">
+      <img class="page-header__logo-image" src="svg/logotiype-white-mobile.svg" width="75" height="22" alt="логотип Pink">
     </a>
     <button class="page-header__close" type="button">Закрыть</button>
     <nav class="main-nav">
@@ -52,8 +52,10 @@
       <h2 class="visually-hidden">
         Наши преимущества
       </h2>
-      <p class="advantages__intro">Устали от серости мегаполиса?</p>
-      <p class="advantages__intro">Нам есть, что вам предложить!</p>
+      <h2 class="advantages__intro caption">
+        Устали от серости мегаполиса?<br>
+        Нам есть, что вам предложить!
+      </h2>
       <ul class="advantages__list">
         <li class="advantages__item">
           <h3 class="advantages__title">Поднимает настроение</h3>
@@ -68,7 +70,7 @@
             <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
         </li>
       </ul>
-      <img class="advantages__image" src="" width="" height="" alt="mobile">
+      <img class="advantages__image" src="svg/advantage.jpg" width="320" height="400" alt="mobile">
     </section>
 
     <section class="reviews">
@@ -110,25 +112,55 @@
         </tr>
         <tr class="version__item">
             <td>Розовый фильтр</td>
-            <td><img src=""></td>
-            <td></td>
-            <td></td>
+            <td><img src="svg/yes.png" width="31" height="21" alt="yes"></td>
+            <td><img src="svg/yes.png" width="31" height="21" alt="yes"></td>
+            <td><img src="svg/yes.png" width="31" height="21" alt="yes"></td>
         </tr>
         <tr class="version__item">
             <td>Смайлики</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><img src="svg/no.png" width="31" height="21" alt="yes"></td>
+            <td><img src="svg/yes.png" width="31" height="21" alt="yes"></td>
+            <td><img src="svg/yes.png" width="31" height="21" alt="yes"></td>
         </tr>
         <tr class="version__item">
             <td>Комментарии</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><img src="svg/no.png" width="31" height="21" alt="yes"></td>
+            <td><img src="svg/no.png" width="31" height="21" alt="yes"></td>
+            <td><img src="svg/yes.png" width="31" height="21" alt="yes"></td>
         </tr>
       </table>
     </section>
   </main>
+  <footer class="page-footer">
+    <div class="footer__wrapper">
+      <div class="page-footer__contacts contacts">
+        <h2 class="page-footer__intro caption">
+            Остались вопросы?<br>
+            Свяжитесь с нами!
+        </h2>
+        <ul class="page-footer__list">
+          <li class="page-footer__item">
+            <h3 class="page-footer__title">Звоните:</h3>
+            <p class="page-footer__text">+7 (812) 555-66-66</p>
+          </li>
+          <li class="page-footer__item">
+              <h3 class="page-footer__title">Пишите:</h3>
+              <p class="page-footer__text">mail@htmlacademy.ru</p>
+          </li>
+          <li class="page-footer__item">
+              <h3 class="page-footer__title">Приезжайте в гости:</h3>
+              <p class="page-footer__text">г. Санкт-Петербург , ул. Большая Конюшенная 19/8</p>
+          </li>
+        </ul>
+        <div class="page-footer__map">
+            <iframe class="page-footer__map--google" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1998.5921404081132!2d30.32142032858533!3d59.938909729998514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDxicj4gICAgICAgICAgICAgICAgINGD0LsuINCRLiDQmtC-0L3RjtGI0LXQvdC90LDRjywg0LQuIDE5Lzg!5e0!3m2!1sru!2sru!4v1530343395935" width="320" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <img >
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
   
 </body>
 </html>

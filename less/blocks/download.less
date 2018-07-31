@@ -1,0 +1,91 @@
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden{
+  position: absolute;
+
+  width: 1;
+  height: 1;
+  margin: -1;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0 );
+  overflow: hidden;
+}
+
+.download{
+ background-color:@blue;
+ text-align: center;
+}
+.download__button{
+  width: 280px;
+  height: 55px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 18px;
+  background-color:@blue;
+  color: @white;
+  text-align: center;
+  border: 2px solid @white;
+  border-radius: 50px;
+  
+}
+
+.download__item{
+  list-style: none;
+  
+    a{
+      text-decoration: none;
+      color: @white;
+    }
+    
+}
+
+.download__link--apple{
+  background-image: url(svg/apple-logo.svg);
+  background-size: 47px 56px;
+}
+.download__link--android{
+  background-image: url(svg/android-logo.svg);
+  background-size: 47px 56px;
+}
+.download__link--windows{
+  background-image: url(svg/windows-logo.svg);
+  background-size: 47px 56px;
+}
+
+
+.download__text{
+  width: 280px;
+  margin: 0 auto;
+
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: @white;
+}
+
+.download__list{
+  width: 280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media(min-width: @tablet-width){
+  .download__button{
+    width: 300px;
+  }
+  .download__list{
+    width: 300px;
+  }
+}
+
+@media(min-width:@desktop-width){
+
+
+}

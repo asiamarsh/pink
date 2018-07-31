@@ -1,0 +1,30 @@
+
+
+.page-header{
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  background: @blue;
+}
+
+.page-header__logo{
+  height: 75px;
+}
+
+
+
+@media (min-width: @tablet-width) {
+  .page-header__logo{
+    height: 110px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .page-header__logo{
+    height: 147px;
+  }
+  .page-header{
+    flex-direction: row;
+  }
+}

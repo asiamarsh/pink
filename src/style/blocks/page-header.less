@@ -1,0 +1,36 @@
+
+
+.page-header{
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  
+}
+.page-header__logo{
+ 
+
+  background-color:@blue;
+  
+}
+.page-header__logo img{
+  height: 75px;
+
+}
+
+
+
+@media (min-width: @tablet-width) {
+  .page-header__logo img{
+    height: 110px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .page-header__logo img{
+    height: 147px;
+  }
+  .page-header{
+    flex-direction: row;
+  }
+}
